@@ -29,5 +29,5 @@ jobs:
     - name: Install Surge
       run: npm install surge
     - name: Run Surge
-      run: surge ./ fahadbootcamp.surge.sh --TOKEN ${{secrete.SURGE_TOKEN}}
+      run: surge ./ fahadbootcamp.surge.sh --TOKEN ${{secrets.SURGE_TOKEN}}
          
